@@ -1,0 +1,64 @@
+.main {
+  width: 100%;
+  width: auto;
+}
+
+.contenedor-from {
+  background-image: url(../img/fondo\ 3.jpg);
+  background-size: cover;
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  margin: 2rem 30rem;
+  padding: 30px;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+div p:hover {
+  border-bottom: 3px solid hsl(0, 0%, 1%);
+  transition: 0.1s;
+}
+
+.forget {
+  text-decoration: none;
+  color: #101010;
+}
+.forget:focus {
+  color: azure;
+}
+
+span a {
+  text-decoration: none;
+  color: #101010;
+}
+
+.register {
+  padding: 1rem;
+}
+
+.register:hover {
+  color: whitesmoke;
+  transition: color 3ms ease;
+}
+
+.form-check-input:checked,
+.form-check-input:focus {
+  background-color: #000;
+  border-color: #3c3c3c;
+  box-shadow: none;
+}
+
+.btn-dark {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.contacto {
+  height: 5px;
+}
